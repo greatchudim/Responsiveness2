@@ -1,0 +1,282 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  max-width: 1440px;
+  width: 100%;
+}
+
+.TopBtn {
+  border-radius: 20px;
+  padding: 10px 50px;
+  border: none;
+  font-weight: bold;
+  background-color: white;
+}
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2em;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700px;
+}
+.btn2 {
+  background-color: hsl(322, 100%, 66%);
+  border: none;
+  border-radius: 20px;
+  color: white;
+  padding: 20px 50px;
+  font-weight: bold;
+}
+.ohma {
+  background-image: url(./images/bg-hero-desktop.svg);
+  background-color: hsl(193, 100%, 96%);
+  width: 100%;
+}
+
+.top1 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.topa {
+  width: 85%;
+}
+.topa img {
+  width: 20%;
+}
+.top2 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+
+  border-radius: 10px;
+}
+
+.top21 {
+  padding: 30px;
+}
+
+.top21 > h1,
+p {
+  margin: 10px;
+}
+
+.top3,
+.top4,
+.top5 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+  margin: 50px 40px;
+  border-radius: 10px;
+  border: solid whitesmoke;
+}
+
+.top31,
+.top51 {
+  padding: 30px;
+  width: 60%;
+}
+
+.top42 {
+  width: 40%;
+}
+.top31,
+.top41,
+.top51 > h1,
+p {
+  margin: 10px;
+}
+
+.top32,
+.top42,
+.top52 {
+  width: 40%;
+}
+
+.top6 {
+  width: 50%;
+  padding-top: 20px;
+  margin: auto;
+  margin-bottom: 0px;
+  border-radius: 10px;
+  border: solid whitesmoke;
+  text-align: center;
+}
+
+footer {
+  color: white;
+  background-color: hsl(192, 100%, 9%);
+  padding: 10px;
+}
+
+footer a {
+  color: white;
+}
+
+.flogo img {
+  color: white;
+  filter: grayscale(70%);
+  filter: invert(50%);
+}
+.okay {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.socialicon > p > img {
+  filter: invert(100%);
+  border-radius: 50px;
+  border: 1px solid black;
+  margin-right: 10px;
+}
+.socialicon > p {
+  display: flex;
+  margin-left: 40px;
+  flex-wrap: nowrap;
+}
+/* .socialicon,
+.okay2 {
+  width: 50%;
+  padding-left: 10px;
+} */
+
+/* @media screen and (max-width: 770px) and (min-width: 375px) {
+  .okay {
+    display: block;
+  }
+} */
+
+@media screen and (max-width: 375px) {
+  body,
+  html {
+    width: 100%;
+  }
+
+  .TopBtn {
+    border-radius: 10px;
+    padding: 1px 1px;
+    border: none;
+    font-weight: normal;
+  }
+  h1 {
+    font-size: 1em;
+  }
+
+  .btn2 {
+    padding: 6px 15px;
+    font-weight: bold;
+  }
+  .ohma {
+    background-image: url(./images/bg-hero-mobile.svg);
+    background-color: hsl(193, 100%, 96%);
+  }
+
+  .top1 {
+    display: flex;
+    padding: 30px;
+    border-radius: 10px;
+  }
+
+  .topb {
+    text-align: right;
+  }
+  .top2 {
+    display: block;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .top21 {
+    padding: 30px;
+  }
+
+  .top21 > h1,
+  p {
+    margin: 10px;
+    font-size: small;
+  }
+
+  .top3,
+  .top4,
+  .top5 {
+    display: block;
+    padding: 1px;
+    margin: 10px 10px;
+    border-radius: 10px;
+    border: solid whitesmoke;
+  }
+
+  .top31,
+  .top41,
+  .top51,
+  .top32,
+  .top42,
+  .top52 {
+    padding: 10px;
+    width: 100%;
+  }
+  .top31,
+  .top41,
+  .top51 > h1,
+  p {
+    margin: 10px;
+  }
+
+  .top6 {
+    width: 80%;
+    padding: 10px 20px;
+    margin: auto;
+    margin-bottom: 0px;
+    border-radius: 10px;
+    border: solid whitesmoke;
+    text-align: center;
+  }
+
+  footer {
+    color: white;
+    background-color: hsl(192, 100%, 9%);
+    padding: 10px;
+  }
+
+  footer a {
+    color: white;
+  }
+
+  .flogo img {
+    color: white;
+    filter: grayscale(70%);
+    filter: invert(50%);
+  }
+
+  .okay {
+    display: block;
+  }
+  .socialicon {
+    display: flex;
+  }
+  .socialicon > p > img {
+    filter: invert(100%);
+    margin: 1px;
+    border-radius: 50px;
+    border: 1px solid black;
+    text-align: center;
+  }
+
+  .socialicon,
+  .okay2 {
+    width: 100%;
+    padding-left: 10px;
+  }
+}
